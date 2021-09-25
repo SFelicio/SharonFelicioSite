@@ -268,7 +268,8 @@ header .logo:hover{
 #web_development .section_description i{
     color: white;
 }
-.projects{
+.projects,
+.real_projects{
     width: 100%;
     display: flex;
     padding: 50px 100px;
@@ -277,7 +278,8 @@ header .logo:hover{
     overflow: auto;
     white-space: nowrap;
 }
-.projects .project{
+.projects .project,
+.real_projects .project{
     display: inline-block;
     }
 .white{
@@ -335,6 +337,20 @@ header .logo:hover{
     height: 25px;
     border-radius: 50%;
     background-color: #feb300;
+    box-shadow: 1px 1px 2px grey;
+}
+.darkblue{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #01228b;
+    box-shadow: 1px 1px 2px grey;
+}
+.lightblue{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #809dfd;
     box-shadow: 1px 1px 2px grey;
 }
 .project{
@@ -752,7 +768,8 @@ header .logo:hover{
    
 }
 @media screen and (max-width: 1098px){
-    .projects{
+    .projects,
+    .real_projects{
         display: flex; 
     }
     .project{
@@ -795,7 +812,8 @@ header .logo:hover{
         width: 100px;
         top: 50%;
     }
-    .projects{
+    .projects,
+    .real_projects{
         justify-content: start;
     }
     #contact .intro .title{
@@ -944,7 +962,8 @@ header .logo:hover{
     left: -30%;
     top: 50%;
     }
-    .projects{
+    .projects,
+    .real_projects{
         padding: 30px 20px;
     }
     #graphics{
